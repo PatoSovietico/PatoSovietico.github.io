@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import ThemeToggle from '$lib/components/ThemeToggle.svelte';
+  </script>
+  
+  <h1>Bem-vindo ao Meu Site!</h1>
+  <p>Este é um exemplo de um site complexo criado com SvelteKit.</p>
+  <ThemeToggle />
