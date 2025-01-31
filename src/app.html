@@ -5,35 +5,8 @@
     <link rel="icon" href="%sveltekit.assets%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     %sveltekit.head%
-    <link rel="stylesheet" href="styles.css" /> <!-- Adicionamos o link para o CSS -->
   </head>
   <body data-sveltekit-preload-data="hover">
-    <div style="display: contents">
-      %sveltekit.body%
-      <!-- Adicionamos o conteúdo que estava faltando -->
-      <header>
-        <nav>
-          <ul>
-            <li><a href="app.html">Início</a></li>
-            <li><a href="routes/sobre.html">Sobre</a></li>
-            <li><a href="routes/servicos.html">Serviços</a></li>
-            <li><a href="routes/contato.html">Contato</a></li>
-          </ul>
-          <button id="theme-toggle">Modo Escuro</button>
-        </nav>
-      </header>
-
-      <main>
-        <h1>Bem-vindo ao Meu Site!</h1>
-        <p>Este é um exemplo de um site bonito e funcional criado com HTML, CSS e JavaScript.</p>
-        <p>Experimente alternar entre o modo escuro e claro usando o botão acima.</p>
-      </main>
-
-      <footer>
-        <p>&copy; 2023 Meu Site HTML. Todos os direitos reservados.</p>
-      </footer>
-    </div>
-
-    <script src="script.js"></script> <!-- Adicionamos o link para o JavaScript -->
+    <div style="display: contents">%sveltekit.body%</div>
   </body>
 </html>
