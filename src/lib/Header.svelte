@@ -1,5 +1,8 @@
 <header>
     <nav>
+        <a href="/static">
+            <img src="favicon.jpg" alt="Logo" style="height: 50px;"> <!-- Adjust the path and height as needed -->
+        </a>
         <a href="/">Home</a>
         <a href="/sobre">Sobre</a>
         <a href="/servicos">Serviços</a>
